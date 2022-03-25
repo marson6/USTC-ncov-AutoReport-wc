@@ -31,3 +31,4 @@ jobs:
         PASSWORD: ${{ secrets.Password }}
       run: |
         python report.py data.json "$STUID" "$PASSWORD"
+
